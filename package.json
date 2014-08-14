@@ -1,0 +1,37 @@
+{
+  "name": "node-webkit-mac-updater-test-app",
+  "description": "Testing app for node-webkit-auto-updater",
+  "keywords": [
+    "node-webkit",
+    "mac",
+    "test-app",
+    "updater"
+  ],
+  "author": "Gerwin Brunner <gerwin.brunner@vilango.com>",
+  "version": "0.0.1",
+  "bugs": {
+    "url": "https://github.com/Vilango/node-webkit-auto-updater/issues"
+  },
+  "scripts": {
+    "test": "jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Vilango/node-webkit-auto-updater-test-app.git"
+  },
+  "dependencies": {
+    "fibrous": "0.3.3",
+    "underscore": "~1.6",
+    "underscore.string": "~2.3",
+    "node-uuid": "~1.4",
+    "request": "~2.40.0",
+    "fs-extra": "0.11.0"
+  },
+  "devDependencies": {
+    "jasmine-node": ">= 1.14",
+    "node-webkit-builder": "~0.1"
+  },
+  "homepage": "https://github.com/Vilango/node-webkit-auto-updater",
+  "main": "index.js",
+  "license": "MIT"
+}
